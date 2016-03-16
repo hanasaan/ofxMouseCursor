@@ -4,7 +4,7 @@
 
 void ofxMouseCursor::setMouseCursor(ofxMouseCursorType type) throw(string) {
     switch (type) {
-        case CURRENT_SYSTEM_CUROR:
+        case CURRENT_SYSTEM_CURSOR:
             [[NSCursor currentSystemCursor] set];
             return;
         case ARROW_CURSOR:
